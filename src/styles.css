@@ -11,6 +11,9 @@ body {
     margin: 0 auto;
 
 }
+.text-center {
+  text-align: center;
+}
 .grid {
     display: grid;
     grid-gap: 64px; 
@@ -25,10 +28,16 @@ body {
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
   }
+  .grid-3-colums {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   section {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+  }
+  section.secondary {
+    background: #f8f8f8;
+
   }
 
 header {
